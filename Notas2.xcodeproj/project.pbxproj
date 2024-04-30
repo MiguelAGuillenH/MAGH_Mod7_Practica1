@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8609024D2BE074FB000353B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609024C2BE074FB000353B4 /* Constants.swift */; };
 		86EDCCF92BD88511007D790D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCCF82BD88511007D790D /* AppDelegate.swift */; };
 		86EDCCFB2BD88511007D790D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCCFA2BD88511007D790D /* SceneDelegate.swift */; };
 		86EDCD002BD88511007D790D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86EDCCFE2BD88511007D790D /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8609024C2BE074FB000353B4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		86EDCCF52BD88511007D790D /* Notas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EDCCF82BD88511007D790D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86EDCCFA2BD88511007D790D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8609024B2BE074EE000353B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8609024C2BE074FB000353B4 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		86EDCCEC2BD88511007D790D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		86EDCCF72BD88511007D790D /* Notas2 */ = {
 			isa = PBXGroup;
 			children = (
+				8609024B2BE074EE000353B4 /* Utils */,
 				86EDCD122BD88559007D790D /* Extensions */,
 				86EDCD112BD88553007D790D /* Model */,
 				86EDCD102BD8854A007D790D /* View */,
@@ -208,6 +219,7 @@
 				86EDCD222BD896D9007D790D /* NotesViewController.swift in Sources */,
 				86EDCD2D2BDB0CC2007D790D /* TextViewExtension.swift in Sources */,
 				86EDCD182BD885F1007D790D /* ViewExtension.swift in Sources */,
+				8609024D2BE074FB000353B4 /* Constants.swift in Sources */,
 				86EDCD142BD8859A007D790D /* DateFormatterExtension.swift in Sources */,
 				86EDCD1E2BD886E1007D790D /* NoteManager.swift in Sources */,
 				86EDCD1C2BD88666007D790D /* Note.swift in Sources */,
