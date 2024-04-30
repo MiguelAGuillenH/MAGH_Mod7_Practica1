@@ -24,7 +24,6 @@
 		86EDCD242BD99443007D790D /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCD232BD99443007D790D /* AddNoteViewController.swift */; };
 		86EDCD262BD99CFC007D790D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCD252BD99CFC007D790D /* StringExtension.swift */; };
 		86EDCD2D2BDB0CC2007D790D /* TextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCD2C2BDB0CC2007D790D /* TextViewExtension.swift */; };
-		86EDCD302BDB0D66007D790D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDCD2F2BDB0D66007D790D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		86EDCD232BD99443007D790D /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		86EDCD252BD99CFC007D790D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		86EDCD2C2BDB0CC2007D790D /* TextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewExtension.swift; sourceTree = "<group>"; };
-		86EDCD2F2BDB0D66007D790D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../../Documents/Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 		86EDCCF72BD88511007D790D /* Notas2 */ = {
 			isa = PBXGroup;
 			children = (
-				86EDCD2E2BDB0D58007D790D /* Utils */,
 				86EDCD122BD88559007D790D /* Extensions */,
 				86EDCD112BD88553007D790D /* Model */,
 				86EDCD102BD8854A007D790D /* View */,
@@ -133,14 +130,6 @@
 				86EDCD2C2BDB0CC2007D790D /* TextViewExtension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		86EDCD2E2BDB0D58007D790D /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				86EDCD2F2BDB0D66007D790D /* Constants.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +208,6 @@
 				86EDCD222BD896D9007D790D /* NotesViewController.swift in Sources */,
 				86EDCD2D2BDB0CC2007D790D /* TextViewExtension.swift in Sources */,
 				86EDCD182BD885F1007D790D /* ViewExtension.swift in Sources */,
-				86EDCD302BDB0D66007D790D /* Constants.swift in Sources */,
 				86EDCD142BD8859A007D790D /* DateFormatterExtension.swift in Sources */,
 				86EDCD1E2BD886E1007D790D /* NoteManager.swift in Sources */,
 				86EDCD1C2BD88666007D790D /* Note.swift in Sources */,
